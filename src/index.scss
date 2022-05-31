@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
+
+$cream: hsl(27, 66%, 92%);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 18px;
+  font-family: "DM Sans", sans-serif;
+
+  small {
+    font-size: 12px;
+  }
+}
+
+body {
+  background: $cream;
+}
