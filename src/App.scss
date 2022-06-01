@@ -53,13 +53,11 @@ $soft-red: hsl(10, 79%, 65%);
     }
 
     .chart {
-    //   border: 1px solid black;
       width: 100%;
       display: flex;
       justify-content: space-between;
-      align-items: center;
+      align-items: baseline;
       padding: 1rem;
-      height: 200px;
       position: relative;
     }
 

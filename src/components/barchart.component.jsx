@@ -11,7 +11,7 @@ const BarChart = ({ data, index, currentDay }) => {
   };
 
   return (
-    <div className="barchart-container" style={{ left: `${45 * index}px` }}>
+    <div className="barchart-container">
       <div
         className={currentDay === day ? "barchart blue" : "barchart"}
         style={{ height: `${3 * amount}px` }}
